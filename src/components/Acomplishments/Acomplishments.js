@@ -1,19 +1,36 @@
-import React from 'react';
+import React from "react";
 
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
-
-const data = [
-  { number: 20, text: 'Open Source Projects'},
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
-];
+import {
+  BlogCard,
+  GridContainer,
+  Img
+} from "./AcomplishmentsStyles";
+import {
+  Section,
+  SectionDivider,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
 
 const Acomplishments = () => (
-  <div>
-    Acomplishments
-  </div>
+  <Section nopadding id="acomplishments">
+    <br/>
+    <SectionDivider /><br />
+    <SectionTitle>Sertifikat</SectionTitle>
+    <GridContainer>
+      <BlogCard href="https://www.sololearn.com/Certificate/1014-25669448/jpg/">
+        <Img src="https://www.sololearn.com/Certificate/1014-25669448/jpg/" />
+      </BlogCard>
+      <BlogCard href="https://www.sololearn.com/Certificate/1023-25669448/jpg/">
+        <Img src="https://www.sololearn.com/Certificate/1023-25669448/jpg/" />
+      </BlogCard>
+      <BlogCard href="https://www.sololearn.com/Certificate/1023-25669448/jpg/">
+        <Img src="/images/laravel.PNG" />
+      </BlogCard>
+      <BlogCard href="https://www.sololearn.com/Certificate/1023-25669448/jpg/">
+        <Img src="/images/laravue.PNG" />
+      </BlogCard>
+    </GridContainer>
+  </Section>
 );
 
 export default Acomplishments;

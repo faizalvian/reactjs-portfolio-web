@@ -7,12 +7,15 @@ import { LeftSection } from './HeroStyles';
 const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
-      <SectionTitle main center>
-        Welcome to <br />
-        My Personal Portfolio
+      <SectionText>
+        Halo semua! perkenalkan saya
+      </SectionText>
+      <SectionTitle center>
+        Muhammad Faiz <br />
+        Alviansyah
       </SectionTitle>
       <SectionText>
-        Perkenalkan nama saya Muhammad Faiz Alviansyah, saya adalah seorang <strong>Frontend Developer</strong>.
+        Front-End Web Developer
       </SectionText>
       <Button onClick={() => window.location = 'https://faizalvian.site'}>Hire Now</Button>
     </LeftSection>
