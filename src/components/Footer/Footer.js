@@ -19,7 +19,7 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Telepon/WhatsApp</LinkTitle>
+          <LinkTitle>WhatsApp</LinkTitle>
           <LinkItem href="#">0856 9710 1126</LinkItem>
         </LinkColumn>
         <LinkColumn>
@@ -30,13 +30,13 @@ const Footer = () => {
           <LinkTitle>Follow me on</LinkTitle>
           <LinkItem href="#">
             <SocialIcons href="#">
-              <AiFillGithub size="3rem" />
+              <AiFillGithub size="1rem" />
             </SocialIcons>
             <SocialIcons href="#">
-              <AiFillInstagram size="3rem" />
+              <AiFillInstagram size="1rem" />
             </SocialIcons>
             <SocialIcons href="#">
-              <AiFillLinkedin size="3rem" />
+              <AiFillLinkedin size="1rem" />
             </SocialIcons>
           </LinkItem>
         </LinkColumn>
